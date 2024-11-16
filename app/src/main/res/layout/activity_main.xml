@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sc"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="Welcome To"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/home1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home"
+        android:gravity="center"
+        android:text="ShoppingKart"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/home2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/home1"
+        android:gravity="center"
+        android:text="login as"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/farmer"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="103dp"
+        android:gravity="center"
+        android:text="Seller"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buyer"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/farmer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="103dp"
+        android:gravity="center"
+        android:text="customer"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+
+</RelativeLayout>

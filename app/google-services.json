@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "664869220251",
+    "project_id": "shopping-app-3db79",
+    "storage_bucket": "shopping-app-3db79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664869220251:android:2112efe804760f51537b3e",
+        "android_client_info": {
+          "package_name": "com.example.farmerhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg_lmD02jBrd57a_CmnCIG-qSpKHf9iXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
